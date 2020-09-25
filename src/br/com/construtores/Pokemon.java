@@ -9,8 +9,7 @@ public class Pokemon {
 	
 	Pokemon(String nome, String tipo1, String tipo2){
 		
-		this.setNome(nome);
-		this.setTipo1(tipo1);
+		this(nome, tipo1);
 		this.setTipo2(tipo2);
 	}
 	
