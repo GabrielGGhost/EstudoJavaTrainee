@@ -1,12 +1,13 @@
-package br.com.construtores;
+package br.com.estudos12_construtores;
 
 public class TestePokemon {
 
 	public static void main(String[] args) {
 		
-		Pokemon[] pokemons = new Pokemon[4];
 		
-		pokemons[0] = new Pokemon();
+		Pokemon[] pokemons = new Pokemon[4]; //Declarando vetor de pokemon
+		
+		pokemons[0] = new Pokemon(); //Instanciando o elemento da primeira posição
 		pokemons[1] = new Pokemon("Charmander", "Fogo");
 		pokemons[2] = new Pokemon("Squirtle ", "água");		
 		pokemons[3] = new Pokemon("Weedle", "Inseto", "Venenoso");
@@ -14,7 +15,7 @@ public class TestePokemon {
 		pokemons[0].setNome("Bulbassauro");
 		pokemons[0].setTipo1("Planta");
 		pokemons[0].setTipo2("Venenoso");
-	
+				
 		for (int i = 0; i < pokemons.length; i++) {
 			System.out.println("POKEMON: " + pokemons[i].getNome());
 			System.out.println("TIPO PRIMÁRIO: " + pokemons[i].getTipo1());
