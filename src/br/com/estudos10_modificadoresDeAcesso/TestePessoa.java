@@ -1,4 +1,4 @@
-package br.com.estudo10_modificadoresDeAcesso;
+package br.com.estudos10_modificadoresDeAcesso;
 
 public class TestePessoa {
 
