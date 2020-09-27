@@ -1,4 +1,4 @@
-package br.estudo.estudos17_final;
+package br.com.estudos17_final;
 
 public class Endereco {
 	
