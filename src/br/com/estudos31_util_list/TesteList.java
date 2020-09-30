@@ -1,4 +1,4 @@
-package br.com.estudos31_util;
+package br.com.estudos31_util_list;
 
 import java.util.*;
 

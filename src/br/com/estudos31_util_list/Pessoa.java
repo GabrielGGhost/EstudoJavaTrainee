@@ -1,4 +1,4 @@
-package br.com.estudos31_util;
+package br.com.estudos31_util_list;
 
 public class Pessoa {
 

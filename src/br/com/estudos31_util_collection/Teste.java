@@ -1,4 +1,4 @@
-package br.com.estudos31_util_2;
+package br.com.estudos31_util_collection;
 
 public class Teste {
 
